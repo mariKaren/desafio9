@@ -153,7 +153,7 @@
   font-style: italic;
   border: 2px solid white;
   background-color: #FFF6F8;
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(52, 58, 64, 0.7);
 }
 
 .botonVerMas:hover {
@@ -280,7 +280,6 @@ footer {
   font-style: italic;
   background-color: #FFF6F8;
   padding-top: 0px;
-  /* padding-right: 68px; */
   margin-left: 400px;
   margin-right: 400px;
   color: rgba(0, 0, 0, 0.7);
@@ -312,7 +311,7 @@ footer {
   padding-right: 8px;
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  color: #e8c2ca;
+  color: #E7B7C1;
 }
 
 /* css CONTACTO */
