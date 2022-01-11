@@ -197,17 +197,18 @@ footer {
   width: 100%;
   height: 180px;
   background-color: #FFF6F8;
+  display: -ms-grid;
   display: grid;
-  grid-template-areas: 
-    "NavFooter NavFooter"
-    "Datos Datos"
-    "copyRight copyRight";
+      grid-template-areas: "NavFooter NavFooter" "Datos Datos" "copyRight copyRight";
 }
 
 .navFooter {
   width: 100%;
   height: 1.5%;
   text-align: center;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: NavFooter;
 }
 
@@ -225,6 +226,9 @@ footer {
 }
 
 .datosFooter {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: Datos;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,6 +266,9 @@ footer {
   margin-top: 10px;
   font-size: 11px;
   margin-left: 8px;
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-area: copyRight;
 }
 
